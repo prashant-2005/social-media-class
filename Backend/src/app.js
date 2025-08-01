@@ -11,7 +11,7 @@ app.use(cookieParser())
 
 
 app.use("/auth",authRoutes)
-app.use("/",postRoutes)
+app.use("/posts",postRoutes)
 
 
 
